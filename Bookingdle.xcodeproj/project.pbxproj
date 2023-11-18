@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C920D6192AD8DEFD00916983 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C920D6182AD8DEFD00916983 /* AppDelegate.swift */; };
+		C920D61B2AD8DEFD00916983 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C920D61A2AD8DEFD00916983 /* SceneDelegate.swift */; };
+		C920D61D2AD8DEFD00916983 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C920D61C2AD8DEFD00916983 /* ViewController.swift */; };
+		C920D6202AD8DEFD00916983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C920D61E2AD8DEFD00916983 /* Main.storyboard */; };
+		C920D6232AD8DEFD00916983 /* Bookingdle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C920D6212AD8DEFD00916983 /* Bookingdle.xcdatamodeld */; };
+		C920D6252AD8DEFE00916983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C920D6242AD8DEFE00916983 /* Assets.xcassets */; };
+		C920D6282AD8DEFE00916983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C920D6262AD8DEFE00916983 /* LaunchScreen.storyboard */; };
+		C920D6342AD8E3F500916983 /* Bookingdle-logos_black.png in Resources */ = {isa = PBXBuildFile; fileRef = C920D6332AD8E3F500916983 /* Bookingdle-logos_black.png */; };
+		C920D6362AD8E3FB00916983 /* Bookingdle-logos.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C920D6352AD8E3FB00916983 /* Bookingdle-logos.jpeg */; };
+		C920D6382AD8E8B400916983 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C920D6372AD8E8B400916983 /* DataManager.swift */; };
+		C920D6402AD8F19D00916983 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C920D63F2AD8F19D00916983 /* EventsViewController.swift */; };
+		C920D6422AD8F5AC00916983 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C920D6412AD8F5AC00916983 /* EventCell.swift */; };
+		C920D6442AD8FB1B00916983 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C920D6432AD8FB1A00916983 /* EventViewController.swift */; };
+		C920D6462AD906D000916983 /* SessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C920D6452AD906D000916983 /* SessionsViewController.swift */; };
+		C920D6482AD9091A00916983 /* SessionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C920D6472AD9091A00916983 /* SessionCell.swift */; };
+		C978C6922ADDFFF0009B30C0 /* SessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C978C6912ADDFFF0009B30C0 /* SessionViewController.swift */; };
+		C978C6942ADE9D22009B30C0 /* BookedEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C978C6932ADE9D22009B30C0 /* BookedEventsViewController.swift */; };
+		C978C6962ADE9E9C009B30C0 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C978C6952ADE9E9C009B30C0 /* SwiftyJSON.swift */; };
+		C97AE6542AE29AD8007E8A2D /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97AE6532AE29AD8007E8A2D /* Session.swift */; };
+		C99E08D42AE3E02100C191A6 /* BookedEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99E08D32AE3E02100C191A6 /* BookedEventViewController.swift */; };
+		C9C449FD2AE089C500DE4CB8 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C449FC2AE089C500DE4CB8 /* Event.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C920D6152AD8DEFD00916983 /* Bookingdle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookingdle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C920D6182AD8DEFD00916983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C920D61A2AD8DEFD00916983 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C920D61C2AD8DEFD00916983 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C920D61F2AD8DEFD00916983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C920D6222AD8DEFD00916983 /* Bookingdle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookingdle.xcdatamodel; sourceTree = "<group>"; };
+		C920D6242AD8DEFE00916983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C920D6272AD8DEFE00916983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C920D6292AD8DEFE00916983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C920D6332AD8E3F500916983 /* Bookingdle-logos_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bookingdle-logos_black.png"; sourceTree = "<group>"; };
+		C920D6352AD8E3FB00916983 /* Bookingdle-logos.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bookingdle-logos.jpeg"; sourceTree = "<group>"; };
+		C920D6372AD8E8B400916983 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		C920D63F2AD8F19D00916983 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		C920D6412AD8F5AC00916983 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		C920D6432AD8FB1A00916983 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		C920D6452AD906D000916983 /* SessionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsViewController.swift; sourceTree = "<group>"; };
+		C920D6472AD9091A00916983 /* SessionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCell.swift; sourceTree = "<group>"; };
+		C978C6912ADDFFF0009B30C0 /* SessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViewController.swift; sourceTree = "<group>"; };
+		C978C6932ADE9D22009B30C0 /* BookedEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookedEventsViewController.swift; sourceTree = "<group>"; };
+		C978C6952ADE9E9C009B30C0 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		C97AE6532AE29AD8007E8A2D /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		C99E08D32AE3E02100C191A6 /* BookedEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookedEventViewController.swift; sourceTree = "<group>"; };
+		C9C449FC2AE089C500DE4CB8 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C920D6122AD8DEFD00916983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C920D60C2AD8DEFD00916983 = {
+			isa = PBXGroup;
+			children = (
+				C920D6172AD8DEFD00916983 /* Bookingdle */,
+				C920D6162AD8DEFD00916983 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C920D6162AD8DEFD00916983 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C920D6152AD8DEFD00916983 /* Bookingdle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C920D6172AD8DEFD00916983 /* Bookingdle */ = {
+			isa = PBXGroup;
+			children = (
+				C920D6182AD8DEFD00916983 /* AppDelegate.swift */,
+				C920D61A2AD8DEFD00916983 /* SceneDelegate.swift */,
+				C920D61C2AD8DEFD00916983 /* ViewController.swift */,
+				C920D61E2AD8DEFD00916983 /* Main.storyboard */,
+				C920D6242AD8DEFE00916983 /* Assets.xcassets */,
+				C920D6262AD8DEFE00916983 /* LaunchScreen.storyboard */,
+				C920D6292AD8DEFE00916983 /* Info.plist */,
+				C920D6212AD8DEFD00916983 /* Bookingdle.xcdatamodeld */,
+				C920D6332AD8E3F500916983 /* Bookingdle-logos_black.png */,
+				C920D6352AD8E3FB00916983 /* Bookingdle-logos.jpeg */,
+				C920D6372AD8E8B400916983 /* DataManager.swift */,
+				C920D63F2AD8F19D00916983 /* EventsViewController.swift */,
+				C920D6432AD8FB1A00916983 /* EventViewController.swift */,
+				C920D6412AD8F5AC00916983 /* EventCell.swift */,
+				C920D6452AD906D000916983 /* SessionsViewController.swift */,
+				C978C6912ADDFFF0009B30C0 /* SessionViewController.swift */,
+				C920D6472AD9091A00916983 /* SessionCell.swift */,
+				C978C6932ADE9D22009B30C0 /* BookedEventsViewController.swift */,
+				C978C6952ADE9E9C009B30C0 /* SwiftyJSON.swift */,
+				C9C449FC2AE089C500DE4CB8 /* Event.swift */,
+				C97AE6532AE29AD8007E8A2D /* Session.swift */,
+				C99E08D32AE3E02100C191A6 /* BookedEventViewController.swift */,
+			);
+			path = Bookingdle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C920D6142AD8DEFD00916983 /* Bookingdle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C920D62C2AD8DEFE00916983 /* Build configuration list for PBXNativeTarget "Bookingdle" */;
+			buildPhases = (
+				C920D6112AD8DEFD00916983 /* Sources */,
+				C920D6122AD8DEFD00916983 /* Frameworks */,
+				C920D6132AD8DEFD00916983 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bookingdle;
+			productName = Bookingdle;
+			productReference = C920D6152AD8DEFD00916983 /* Bookingdle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C920D60D2AD8DEFD00916983 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C920D6142AD8DEFD00916983 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C920D6102AD8DEFD00916983 /* Build configuration list for PBXProject "Bookingdle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C920D60C2AD8DEFD00916983;
+			productRefGroup = C920D6162AD8DEFD00916983 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C920D6142AD8DEFD00916983 /* Bookingdle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C920D6132AD8DEFD00916983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C920D6342AD8E3F500916983 /* Bookingdle-logos_black.png in Resources */,
+				C920D6282AD8DEFE00916983 /* LaunchScreen.storyboard in Resources */,
+				C920D6252AD8DEFE00916983 /* Assets.xcassets in Resources */,
+				C920D6202AD8DEFD00916983 /* Main.storyboard in Resources */,
+				C920D6362AD8E3FB00916983 /* Bookingdle-logos.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C920D6112AD8DEFD00916983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C920D61D2AD8DEFD00916983 /* ViewController.swift in Sources */,
+				C920D6382AD8E8B400916983 /* DataManager.swift in Sources */,
+				C920D6482AD9091A00916983 /* SessionCell.swift in Sources */,
+				C920D6232AD8DEFD00916983 /* Bookingdle.xcdatamodeld in Sources */,
+				C920D6192AD8DEFD00916983 /* AppDelegate.swift in Sources */,
+				C97AE6542AE29AD8007E8A2D /* Session.swift in Sources */,
+				C920D61B2AD8DEFD00916983 /* SceneDelegate.swift in Sources */,
+				C920D6442AD8FB1B00916983 /* EventViewController.swift in Sources */,
+				C920D6402AD8F19D00916983 /* EventsViewController.swift in Sources */,
+				C978C6922ADDFFF0009B30C0 /* SessionViewController.swift in Sources */,
+				C920D6462AD906D000916983 /* SessionsViewController.swift in Sources */,
+				C978C6942ADE9D22009B30C0 /* BookedEventsViewController.swift in Sources */,
+				C978C6962ADE9E9C009B30C0 /* SwiftyJSON.swift in Sources */,
+				C9C449FD2AE089C500DE4CB8 /* Event.swift in Sources */,
+				C920D6422AD8F5AC00916983 /* EventCell.swift in Sources */,
+				C99E08D42AE3E02100C191A6 /* BookedEventViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C920D61E2AD8DEFD00916983 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C920D61F2AD8DEFD00916983 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C920D6262AD8DEFE00916983 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C920D6272AD8DEFE00916983 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C920D62A2AD8DEFE00916983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C920D62B2AD8DEFE00916983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C920D62D2AD8DEFE00916983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bookingdle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "University-of-South-Australia.Bookingdle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C920D62E2AD8DEFE00916983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bookingdle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "University-of-South-Australia.Bookingdle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C920D6102AD8DEFD00916983 /* Build configuration list for PBXProject "Bookingdle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C920D62A2AD8DEFE00916983 /* Debug */,
+				C920D62B2AD8DEFE00916983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C920D62C2AD8DEFE00916983 /* Build configuration list for PBXNativeTarget "Bookingdle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C920D62D2AD8DEFE00916983 /* Debug */,
+				C920D62E2AD8DEFE00916983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C920D6212AD8DEFD00916983 /* Bookingdle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C920D6222AD8DEFD00916983 /* Bookingdle.xcdatamodel */,
+			);
+			currentVersion = C920D6222AD8DEFD00916983 /* Bookingdle.xcdatamodel */;
+			path = Bookingdle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C920D60D2AD8DEFD00916983 /* Project object */;
+}
